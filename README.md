@@ -1,17 +1,48 @@
-# rickandmorty
+# Rick & Morty Flutter App
 
-A new Flutter project.
+Приложение на Flutter, которое загружает персонажей из мультсериала **"Рик и Морти"** с использованием [Rick and Morty API](https://rickandmortyapi.com/). Поддерживает избранное, оффлайн-режим и сортировку.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Скриншоты
 
-A few resources to get you started if this is your first Flutter project:
+![screenshot1](screenshots/home.png)
+![screenshot2](screenshots/dark.png)
+![screenshot3](screenshots/detail.png)
+![screenshot4](screenshots/fav.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# rickandmorty
+## ✨ Возможности
+
+- Загрузка персонажей с публичного API
+- Добавление в избранное (и удаление)
+- Хранение избранных локально с Hive
+- Паггинация
+- Локальное сохранения списка, избранных
+- Кеширование списка персонажей для оффлайн-доступа
+- Поддержка тёмной/светлой темы(анимация для смены темы)
+- Плавные анимации при добавлении/удалении избранных
+- Анимация заднего фона
+- Анимация свапа, смены вкладок
+- Сортировка по имени, статусу и т. д.
+- Переход на экран персонажа по нажатию на карточку
+
+---
+
+## 📦 Зависимости
+
+- [`provider`](https://pub.dev/packages/provider)
+- [`hive`](https://pub.dev/packages/hive) / [`hive_flutter`](https://pub.dev/packages/hive_flutter)
+- [`http`](https://pub.dev/packages/http)
+- [`path_provider`](https://pub.dev/packages/path_provider) (опционально)
+
+---
+
+## 🛠 Установка и запуск
+
+1. Склонируй репозиторий:
+
+   ```bash
+   git clone https://github.com/your-username/rick-and-morty-flutter.git
+   cd rick-and-morty-flutter
