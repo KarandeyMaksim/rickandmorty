@@ -6,10 +6,10 @@
 
 ## 📱 Скриншоты
 
-![screenshot1](screenshots/home.png)
-![screenshot2](screenshots/dark.png)
-![screenshot3](screenshots/detail.png)
-![screenshot4](screenshots/fav.png)
+![screenshot1](lib/screenshots/dark.png)
+![screenshot2](lib/screenshots/dark.png)
+![screenshot3](lib/screenshots/detail.png)
+![screenshot4](lib/screenshots/fav.png)
 
 ---
 
